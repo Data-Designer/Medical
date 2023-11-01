@@ -50,6 +50,8 @@ Due to the copyright limitations, we have not uploaded the data.  You can seek p
 
 ## RUN
 
+You need to first change the dirs in the scripts of preprocess folder. Download the M&Ms data and run `split_MNMS_data.py` to split the original dataset into different domains. Then run `save_MNMS_2D.py` to save the original 4D data as 2D numpy arrays. Finally, run `save_MNMS_re.py` to save the resolution of each datum.
+
 ```powershell
 # unzip all files into the Medical directory
 # preprocess if SCGM/MM (OpenDataset) dataset
