@@ -4,7 +4,7 @@
 
 Update: 2023/10/22: We have created a repository for the paper titled *Enhancing Domain Generalization in Medical Image Segmentation with Global and Local Prompts*, which has been submitted to the **The IEEE CVF Computer Vision and Pattern Recognition Conference (CVPR2024) **. In this repository, we offer the original sample datasets, preprocessing scripts, and algorithm files to showcase the reproducibility of our work.
 
-![image-20231031211425767](C:%5CUsers%5CZC%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20231031211425767.png)
+![image-20231031211425767](https://s2.loli.net/2023/11/01/m4pyURcFaqtIsZC.png)
 
 ## Requirements
 
