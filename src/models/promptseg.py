@@ -204,7 +204,7 @@ class PromptTransUnet(nn.Module):
                 recon_encoder_out = self.vision_encoder(torch.cat((recons, self.global_prompt(recons, meta_loss=self.meta_loss, meta_step_size=self.meta_step_size,
                                        stop_gradient=self.stop_gradient)),dim=1), '0', meta_loss=self.meta_loss, meta_step_size=self.meta_step_size, stop_gradient=self.stop_gradient) # 重新送入.，这一块没用了。
 
-            # recon_encoder_out = 0
+            recon_encoder_out = recon_encoder_out[0] # 
 
             # bank SSL output
             neg_domain_labels = torch.nonzero(1-domain_labels)[:, 1] # B, 3,
