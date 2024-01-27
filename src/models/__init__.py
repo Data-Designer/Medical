@@ -9,6 +9,10 @@
 # #Desc: register
 
 from .promptseg import *
+# from .doprompt import *
+# from .transunet import *
+# from .vitwithout import *
+# from .prod import *
 
 
 import sys

@@ -6,7 +6,7 @@
 # @File    : save_MNMS_re.py
 # @Software: PyCharm
 
-# #Desc: 其实很奇怪，重构为什么要重新弄一下
+# #Desc: 
 
 import nibabel as nib
 import argparse
@@ -125,10 +125,10 @@ for num_pat in range(0, len(LabeledVendorA_names)):
     print('patient%03d...' % num_pat)
     save_labeled_data_root = LabeledVendorA_data_dir
 
-    img_np = np.transpose(img_np, (0, 1, 3, 2)) # 216,256,13,25 四个维度啥意思分别是
+    img_np = np.transpose(img_np, (0, 1, 3, 2))
 
     ## save each image of the patient
-    for num_slice in range(img_np.shape[2]*img_np.shape[3]): # 为啥存的一个值，不是重构图片么。
+    for num_slice in range(img_np.shape[2]*img_np.shape[3]): 
         save_np(X_scan_re_np, save_labeled_data_root, '%03d%03d' % (num_pat, num_slice))
 
 
@@ -141,7 +141,7 @@ for num_pat in range(0, len(LabeledVendorB2_names)):
     img_np = img.get_fdata()
 
     header = img.header
-    resolution = header.get_zooms() # 最后一个值 header.get_zooms() 是以毫秒为单位的扫描间隔时间;这相当于时间轴上的体素大小。
+    resolution = header.get_zooms() 
 
     X_scan_re = []
     X_scan_re.append(resolution[0])
