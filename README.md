@@ -2,7 +2,7 @@
 
 ## About Our Work
 
-Update: 2023/10/22: We have created a repository for the paper titled *Enhancing Domain Generalization in Medical Image Segmentation with Global and Local Prompts*, which has been submitted to the **The IEEE CVF Computer Vision and Pattern Recognition Conference (CVPR2024) **. In this repository, we offer the original sample datasets, preprocessing scripts, and algorithm files to showcase the reproducibility of our work.
+Update: 2024/02/22: We have created a repository for the paper titled *Enhancing Domain Generalization in Medical Image Segmentation with Global and Local Prompts*, which has been submitted to the **IEEE Transactions on Medical Imaging**. In this repository, we offer the original sample datasets, preprocessing scripts, and algorithm files to showcase the reproducibility of our work.
 
 ![image-20231031211425767](https://s2.loli.net/2023/11/01/m4pyURcFaqtIsZC.png)
 
@@ -62,8 +62,6 @@ python main.py # main file: M&M->main.py, SCGM->main_scm.py, Prostate->main_pro.
 ```
 
 ## Contributors ✨
-
-Due to **double-blind anonymity restrictions**, we have anonymized the contributors.
 
 Many thanks to the data preprocessing pipeline in the following published papers.
 
