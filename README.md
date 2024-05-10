@@ -2,7 +2,7 @@
 
 ## About Our Work
 
-Update: 2024/02/22: We have created a repository for the paper titled *Enhancing Domain Generalization in Medical Image Segmentation with Global and Local Prompts*, which has been submitted to the **IEEE Transactions on Medical Imaging**. In this repository, we offer the original sample datasets, preprocessing scripts, and algorithm files to showcase the reproducibility of our work.
+Update: 2024/05/10: We have created a repository for the paper titled *Enhancing Domain Generalization in Medical Image Segmentation with Global and Local Prompts*, which has been submitted to the **Medical Image Analysis**. In this repository, we offer the original sample datasets, preprocessing scripts, and algorithm files to showcase the reproducibility of our work.
 
 ![image-20231031211425767](https://s2.loli.net/2023/11/01/m4pyURcFaqtIsZC.png)
 
